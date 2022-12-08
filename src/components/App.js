@@ -15,7 +15,7 @@ export default function App() {
         setTotalClick(0);
     };
     const subtractButtonAction = () => {
-        if (totalClick === 0) {
+        if (totalClick > 0) {
             setTotalClick(totalClick - 1);
         }
     };
