@@ -1,0 +1,47 @@
+button {
+    width: 20vh;
+    max-width: 100px;
+    height: 10vh;
+    max-height: 50px;
+
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.clickButton {
+    background: #414d0b;
+    background: -webkit-linear-gradient(to top, #727a17, #414d0b);
+    background: linear-gradient(to top, #727a17, #414d0b);
+}
+.clickButton:hover {
+    background: #6a7e12;
+}
+
+.restartButton {
+    background: #e43a15;
+    background: -webkit-linear-gradient(to top, #e65245, #e43a15);
+    background: linear-gradient(to top, #e65245, #e43a15);
+}
+.restartButton:hover {
+    background: #a72b0f;
+}
+
+.subtractButton {
+    background: #4b79a1;
+    background: -webkit-linear-gradient(to bottom, #283e51, #4b79a1);
+    background: linear-gradient(to bottom, #283e51, #4b79a1);
+}
+.subtractButton:hover {
+    background: #23384b;
+}
+
+.exceptionButton {
+    background: #8e0e00;
+    background: -webkit-linear-gradient(to bottom, #1f1c18, #8e0e00);
+    background: linear-gradient(to bottom, #1f1c18, #8e0e00);
+}
+
+/* All gradients was picked from https://uigradients.com/ */
